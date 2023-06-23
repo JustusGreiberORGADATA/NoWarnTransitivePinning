@@ -1,0 +1,5 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageReference Update="ServiceStack.NetFramework" NoWarn="%(NoWarn);NU1701"/>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	  <!-- Changing the bool below will change the behaviour and remove the warnings. -->
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageVersion Include="ServiceStack.NetFramework" Version="6.9.0" />
+  </ItemGroup>
+</Project>
